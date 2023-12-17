@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2%;
+  background-color: #e0b38e;
+}
+
+.header {
+  display: inline-block;
+  margin-top: 0px;
+  padding: 40px 0px 40px 0px;
+  width: 100%;
+  text-align: center;
+  border: none;
+}
+
+.header input {
+  background-color:  #70e770;
+  font-size: 1rem;
+  border-radius: 10%;
+  padding: 1%;
+  border: none;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.header img{
+  width: 3%;
+  background-color: black;
+  border-radius: 20%;
+  max-width: 100%;
+}
+.title-catalog{
+  font-size: 1rem;
+  text-align: center;
+
+}
+.catalog {
+  margin: 2%;
+  width: 100%;
+}
+.products {
+  display: inline-block;
+  margin: 0.4rem;
+  background-color: #D09C3C;
+  text-align: center;
+  padding-bottom: 10px;
+  width: 30%; /* Alterado para ocupar 100% da largura em telas pequenas */
+}
+.desc-product{
+  font-size: 1.2rem;
+}
+.products img {
+  margin: 10px auto; /* Centralizado horizontalmente e removido margin left/right */
+  width: 80%; /* Ajustado para 80% da largura em telas pequenas */
+  max-width: 100%; /* Evita que a imagem ultrapasse a largura do contêiner */
+  border-radius: 3%;
+}
+footer{
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  margin-top: 3%;
+}
+@media screen and (max-width: 600px){
+  .header{
+    margin-top: 0%;
+  }
+  .catalog{
+    margin: 0%;
+    margin-top: 0%;
+  }
+  .products{
+    width: 100%;
+    margin-top: 3%;
+    border-radius: 5%;
+  }
+  .header img{
+    width: 7%;
+  }
+}
