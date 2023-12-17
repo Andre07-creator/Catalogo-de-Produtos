@@ -52,15 +52,15 @@ body {
   background-color: #D09C3C;
   text-align: center;
   padding-bottom: 10px;
-  width: 30%; /* Alterado para ocupar 100% da largura em telas pequenas */
+  width: 30%; 
 }
 .desc-product{
   font-size: 1.2rem;
 }
 .products img {
-  margin: 10px auto; /* Centralizado horizontalmente e removido margin left/right */
-  width: 80%; /* Ajustado para 80% da largura em telas pequenas */
-  max-width: 100%; /* Evita que a imagem ultrapasse a largura do contêiner */
+  margin: 10px auto; 
+  width: 80%; 
+  max-width: 100%; 
   border-radius: 3%;
 }
 footer{
