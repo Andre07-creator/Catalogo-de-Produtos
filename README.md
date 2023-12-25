@@ -1,5 +1,10 @@
 ## Interface de catalogo de produtos feita com html e css
-#### Foi utilizado conceitos de flexbox para a organização em colunas dos elementos, a divisão do html foi feita de forma semantica, foi utilizado as classes como caixas.
-#### A interface está responsiva com a utilização das media querys
+#### O flexbox foi utilizado junto com o display flex-wrap para que os itens ocupem certo tamanho e quebrem na coluna seguinte, dependendo do width que eu coloco para cada imagem.
+### a divisão do html foi feita de forma semantica, foi utilizado as classes como caixas.
+#### Foram feitas melhorias que deixou a pagina com aspecto melhor criando um container central que fica em volta do conteudo principal.
+#### As cores foram melhoradas ficando um layout mais comfortavel de ver.
+#### O header foi arrumado com o display flex com space-between na sua organização, deixando um menu mais bonito e arrumado.
+#### A interface ainda não está responsiva para mobile.
+#### Alguns espaçamamentos entre os intens foram modificados para que a interace fique melhor.
 #### Serão adicionadas melhorias futuramente
 ### **Deploy da aplicação:** https://catalogo-de-produtos-two.vercel.app/
