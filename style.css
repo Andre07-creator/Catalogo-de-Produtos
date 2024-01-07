@@ -66,13 +66,12 @@ body {
 }
 .products {
   display: flex;
+  padding-bottom: 10px;
   flex-direction: column;
   margin: 10px;
   background-color: rgb(52, 133, 84);
   text-align: center;
   max-width: 28%;
-  height: 55vh;
-  
   border-radius: 10px;
 }
 .desc-product {
@@ -81,6 +80,7 @@ body {
 }
 .desc-product span {
   margin: 0 auto;
+  margin-top: 10px;
   max-width: 50%;
   display: block;
   background-color: rgb(255, 251, 0);
