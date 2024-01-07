@@ -4,7 +4,7 @@
 #### Foram feitas melhorias que deixou a pagina com aspecto melhor criando um container central que fica em volta do conteudo principal.
 #### As cores foram melhoradas ficando um layout mais comfortavel de ver.
 #### O header foi arrumado com o display flex com space-between na sua organização, deixando um menu mais bonito e arrumado.
-#### A interface ainda não está responsiva para mobile.
+#### A interface  responsiva
 #### Alguns espaçamamentos entre os intens foram modificados para que a interace fique melhor.
 #### Serão adicionadas melhorias futuramente
 ### **Deploy da aplicação:** https://catalogo-de-produtos-two.vercel.app/
