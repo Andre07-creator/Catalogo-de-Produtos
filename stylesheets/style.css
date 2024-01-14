@@ -15,18 +15,14 @@ body {
   font-family: "Caprasimo", serif;
   font-family: "Nunito", sans-serif;
   font-family: "Nunito Sans", sans-serif;
-  margin: 2%;
+  
   background-color: rgb(222, 224, 195);
 }
-.container {
-  background-color: aliceblue;
-  padding: 30px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-}
+
 .header-bg {
   background-color: rgb(50, 65, 88);
+  width: 100%;
+  margin: 10px 0 0 0;
 }
 .header {
   padding: 30px;
@@ -62,6 +58,14 @@ body {
 .title-catalog {
   font-size: 1rem;
   text-align: center;
+}
+.container {
+  margin: 0 10px 0 10px;
+  background-color: aliceblue;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 .catalog {
   display: flex;
@@ -120,11 +124,18 @@ p {
   text-decoration: none;
 }
 footer {
-  font-size: 1rem;
+  display: block;
+  margin: 20px auto;
   text-align: center;
-  width: 100%;
-  margin-top: 3%;
+  max-width: 960px;
 }
+footer a {
+  
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+}
+
 @media screen and (max-width: 600px) {
   .header {
     border-radius: 10px;
@@ -163,3 +174,5 @@ footer {
     font-size: 1rem;
   }
 }
+
+

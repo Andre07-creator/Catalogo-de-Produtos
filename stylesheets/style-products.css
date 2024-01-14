@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+h1,
+p,
+h3,
+h2,
+span,
+a {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-weight: bold;
+}
+/* Cabeçalho */
+.header-bg {
+  background-color: rgb(50, 65, 88);
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+.header {
+  padding: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header input {
+  font-weight: bolder;
+  background-color: #70e770;
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 5%;
+  border: none;
+}
+
+.header h1 {
+  color: white;
+  padding: 25px;
+  background-color: rgb(50, 65, 88);
+  font-size: 1.6rem;
+  border-radius: 10px;
+}
+
+.header img {
+  width: 10%;
+  background-color: black;
+  border-radius: 20%;
+  max-width: 100%;
+}
+/* Barra de menu superior */
+.menu-bar {
+  margin: 0 0px 0 30px;
+}
+.menu-bar a {
+  text-decoration: none;
+  color: rgba(2, 4, 8, 0.925);
+}
+
+/* Produto */
+.container {
+  margin: 0 0px 0 30px;
+  margin: 0 auto;
+}
+.sapateira {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sapateira img {
+  margin: 0px 0px 0px 20px;
+  max-width: 40%;
+  border-radius: 40px;
+}
+.description .tag-1 {
+  display: inline-block;
+  margin: 0px 4px 10px 0;
+  padding: 5px;
+  background-color: rgb(52, 133, 84);
+  border: none rgb(33, 33, 48);
+  border-radius: 10px;
+  color: white;
+}
+.description .tag-2 {
+  display: inline-block;
+  margin: 0px 4px 10px 0;
+  padding: 5px;
+  background-color: rgb(33, 33, 48);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.description {
+  margin: 0px 30px 0px 30px;
+  max-width: 600px;
+}
+.description h2 {
+  font-size: 1.8rem;
+  padding: 10px 0 10px 0;
+}
+.description p {
+  color: rgb(14, 14, 19);
+  font-size: 1.1rem;
+  padding: 0px 0px 20px 0;
+}
+.price {
+  font-size: 1.5rem;
+  color: rgb(14, 14, 19);
+  font-weight: bolder;
+}
+.before-price {
+  display: block;
+  padding: 10px 0 10px 0;
+}
+.description a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #70e770;
+  text-align: center;
+  border-radius: 10px;
+}
+.description input {
+  padding-right: 10px;
+  border: none;
+  background-color: #70e770;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.description i {
+  border-radius: 50px;
+  display: inline-block;
+  background-color: #70e770;
+  font-size: 40px;
+  color: black;
+}
+footer {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 960px;
+}
+footer a {
+  text-decoration: none;
+  padding: 30px;
+  color: black;
+}
+@media (max-width: 600px) {
+  .description {
+    margin: 0px 30px 0px 30px;
+    max-width: 600px;
+  }
+  .description h2 {
+    font-size: 1.5rem;
+    padding: 10px 0 10px 0;
+  }
+  .sapateira img {
+    margin: 0px 0px 0px 20px;
+    max-width: 50%;
+    border-radius: 40px;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .header-bg {
+    margin: 0px 0 0 0;
+  }
+  .header {
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .header input {
+    margin-left: 20px;
+    font-size: 0.9rem;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+}
